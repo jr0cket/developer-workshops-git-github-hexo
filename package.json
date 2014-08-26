@@ -1,10 +1,11 @@
 {
-  "name": "hexo-site",
+  "name": "jr0cket-workshops",
   "version": "",
   "private": true,
   "dependencies": {
     "hexo-renderer-ejs": "*",
     "hexo-renderer-stylus": "*",
-    "hexo-renderer-marked": "*"
+    "hexo-renderer-marked": "*",
+    "hexo-renderer-jade": "*"
   }
 }
