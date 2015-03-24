@@ -1,0 +1,3 @@
+[submodule "themes/jr0cket-workshops"]
+	path = themes/jr0cket-workshops
+	url = git@github.com:jr0cket/hexo-theme-jr0cket-workshops.git

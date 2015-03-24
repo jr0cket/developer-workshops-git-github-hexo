@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Developer Workshops
 subtitle:
 description:
-author: John Doe
+author: John Stevenson
 email:
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
-permalink: :year/:month/:day/:title/
+url: http://jr0cket.co.uk/dev-workshops
+root: /dev-workshops/
+permalink: :year/:month/:title/
 tag_dir: tags
 archive_dir: archives
 category_dir: categories
@@ -56,7 +56,7 @@ tag: 2
 ## Hexo uses Connect as a server
 ## You can customize the logger format as defined in
 ## http://www.senchalabs.org/connect/logger.html
-port: 4000
+port: 4242
 server_ip: localhost
 logger: false
 logger_format: dev
@@ -79,10 +79,13 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/hexojs/hexo/wiki/Plugins
 ## Themes: https://github.com/hexojs/hexo/wiki/Themes
-theme: landscape
+theme: jr0cket-workshops
 exclude_generator:
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github 
+  repo: git@github.com:jr0cket/dev-workshops.git
+  branch: gh-pages
+
